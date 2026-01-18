@@ -1,0 +1,73 @@
+{
+
+        "libraryScene": 
+        {
+            "polyp": 
+                {
+                    "start":
+                        {
+                            "text": 
+                                    [ "Welcome to the library!", "Need help finding something?", 
+                                      "Which topic interests you?","Which book interests you?", 
+                                      "Great choice! Here you go.", "Well alright then." ],
+                                    
+                            "topics": 
+                                        [ { "name": "Poetry", "options": ["Rimbaud", "Poe", "Rilke"] },
+                                          { "name": "Flora",  "options": ["Flowers", "Beans", "Trees"] },
+                                          { "name": "Culinary", "options": ["Drinks", "Desserts", "BREAD!"] } ] 
+                        }
+                }
+
+        }, 
+
+        "cafeScene": 
+        {
+            "weep": 
+                {
+                    "start":
+                        {
+                            "text": [ "Welcome to BeanDream Cafe!", "Ready to Order?", "Coming right up.",
+                                      "Heres your options", "Order up for Skeev", "Okay Bye." ],
+                            "topics": [
+                                        { "name": "Hot", "options": [ "Coffee", "Tea", "Milk" ] },
+                                        { "name": "Cold",  "options": [ "Cold Brew", "Latte", "OJ" ] },
+                                        { "name": "Roasts", "options": [ "Light", "Medium", "Dark" ] } ] 
+                        }
+                }
+
+        }, 
+
+        "thriftScene": 
+        {
+            "grizzo": 
+                {
+                    "start":
+                        {
+                            "text": ["Gah, its the Thriftshop", "Lookin fer sumthin?", "Ah well we got this",
+                                      "Sold"],
+                            "topics": [
+                                        { "name": "Toys", "options": ["Chess", "Lego", "Frisbee"] },
+                                        { "name": "Mugs",  "options": ["Unicorn", "Dinosaur", "Cat"] },
+                                        { "name": "Clothes", "options": ["Gloves", "Jacket", "Ascot"] } ] 
+                        }
+                }
+
+        }, 
+
+    "skeevSkuzScene":
+        {
+            "skuz":
+                {
+                    "text": 
+                            [   "Skeev!", "What broski?", "No way!", "I am soooo thirsty!", "Wow, this is RAD!", 
+                                "Hey, this is good", "Hmm hot coffee!", "What a perfect mug!",
+                                "What a cool mug!", "What a mug."
+                            ]
+                },
+
+            "skeev":
+                {
+                    "text": [ "Skuz! Guess what?", "I brewed coffee!", "I got you this mug" ]
+                }
+        }
+}
